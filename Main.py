@@ -1,6 +1,6 @@
 import Menu
 from rich.console import Console
-#Main file
+
 def main():
     console = Console()
     while True:
@@ -18,4 +18,5 @@ def main():
         else:
             print("Invalid choice, please try again.")
 if __name__=="__main__":
+
     main()
